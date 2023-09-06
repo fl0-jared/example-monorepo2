@@ -2,9 +2,12 @@
   "name": "example-monorepo",
   "version": "1.0.0",
   "scripts": {
-    "start": "node ./src/server.js"
+    "start": "nodemon ./src/server.js"
   },
   "dependencies": {
     "express": "4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.1"
   }
 }
